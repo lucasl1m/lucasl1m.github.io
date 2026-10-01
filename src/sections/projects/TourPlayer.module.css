@@ -8,7 +8,7 @@
   padding: var(--space-3);
   border: 2px solid var(--color-ink);
   border-radius: var(--radius-xs);
-  background: #0d130f;
+  background: #0a0d1c;
   box-shadow: 8px 8px 0 var(--color-wood);
 }
 
@@ -26,16 +26,16 @@
   gap: var(--space-2);
   min-height: 2.75rem;
   padding: 0 var(--space-4);
-  border: 2px solid #f6efe3;
+  border: 2px solid #faf8f3;
   border-radius: var(--radius-xs);
-  background: #2b1f18;
-  color: #f6efe3;
+  background: #181a2e;
+  color: #faf8f3;
   font-size: var(--text-sm);
   font-weight: 700;
 }
 
 .toggle:hover {
-  background: #9a4a26;
+  background: #a64208;
 }
 
 .player figcaption {

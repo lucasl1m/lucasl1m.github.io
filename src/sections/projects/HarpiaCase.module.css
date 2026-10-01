@@ -53,11 +53,11 @@
   width: 1.6rem;
   height: 1.6rem;
   translate: -50% -50%;
-  border: 2px solid #f6efe3;
+  border: 2px solid #faf8f3;
   border-radius: var(--radius-xs);
-  background: #9a4a26;
+  background: #a64208;
   box-shadow: 2px 2px 0 rgb(0 0 0 / 0.25);
-  color: #fbf6ee;
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 800;
   transition:
@@ -72,7 +72,7 @@
 }
 
 .markers li[data-active='true'] {
-  background: #2b1f18;
+  background: #181a2e;
   transform: scale(1.25);
 }
 

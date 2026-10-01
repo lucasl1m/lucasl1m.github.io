@@ -145,20 +145,20 @@
 }
 
 .cell[data-result='correct'] {
-  background: #4f8a5e;
-  color: #f6efe3;
+  background: #2a7547;
+  color: #faf8f3;
 }
 
 .cell[data-result='partial'] {
   background: #d9b25a;
-  color: #2b1f18;
+  color: #181a2e;
 }
 
 .cell[data-result='wrong'],
 .cell[data-result='higher'],
 .cell[data-result='lower'] {
-  background: #a8453a;
-  color: #f6efe3;
+  background: #a32a2a;
+  color: #faf8f3;
 }
 
 .value {

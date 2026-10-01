@@ -10,7 +10,7 @@
   align-items: center;
   gap: var(--space-3) var(--space-6);
   padding-block: var(--space-5) var(--space-6);
-  border-top: 1px solid rgb(240 229 213 / 0.12);
+  border-top: 1px solid rgb(238 240 247 / 0.12);
 }
 
 .bar a {

@@ -3,7 +3,7 @@
   --term-on-accent: var(--color-stage);
   padding-block: var(--space-9);
   background:
-    radial-gradient(ellipse 70% 50% at 85% 0%, rgb(227 164 110 / 0.1), transparent 70%),
+    radial-gradient(ellipse 70% 50% at 85% 0%, rgb(255 154 60 / 0.1), transparent 70%),
     var(--color-stage);
   color: var(--color-stage-ink);
 }

@@ -21,8 +21,8 @@
   width: 2rem;
   height: 2rem;
   border-radius: var(--radius-xs);
-  background: rgb(18 13 9 / 0.78);
-  color: #f0e5d5;
+  background: rgb(10 13 28 / 0.78);
+  color: #eef0f7;
   transition: transform var(--duration) var(--ease-out);
 }
 

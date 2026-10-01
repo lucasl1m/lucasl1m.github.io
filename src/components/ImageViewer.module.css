@@ -4,7 +4,7 @@
 }
 
 .root :global(.ant-image-preview-close) {
-  color: #f0e5d5;
+  color: #eef0f7;
 }
 
 .flip {
@@ -20,7 +20,7 @@
 }
 
 .caption {
-  color: #f0e5d5;
+  color: #eef0f7;
   font-size: var(--text-sm);
 }
 
@@ -29,7 +29,7 @@
   gap: var(--space-2);
   padding: var(--space-1);
   border-radius: var(--radius-sm);
-  background: rgb(18 13 9 / 0.85);
+  background: rgb(10 13 28 / 0.85);
 }
 
 .buttons button {
@@ -40,11 +40,11 @@
   border: 0;
   border-radius: var(--radius-xs);
   background: transparent;
-  color: #f0e5d5;
+  color: #eef0f7;
 }
 
 .buttons button:hover:not(:disabled) {
-  background: rgb(240 229 213 / 0.12);
+  background: rgb(238 240 247 / 0.12);
 }
 
 .buttons button:disabled {

@@ -1,8 +1,8 @@
 .devRoast {
   padding-block: var(--space-9);
   background:
-    repeating-linear-gradient(0deg, transparent 0 47px, rgb(138 90 54 / 0.08) 47px 48px),
-    repeating-linear-gradient(90deg, transparent 0 47px, rgb(138 90 54 / 0.08) 47px 48px);
+    repeating-linear-gradient(0deg, transparent 0 47px, rgb(58 69 119 / 0.08) 47px 48px),
+    repeating-linear-gradient(90deg, transparent 0 47px, rgb(58 69 119 / 0.08) 47px 48px);
 }
 
 .lead {
