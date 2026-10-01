@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import neutralFace from '../assets/pixel/neutral.webp';
 import { profile } from '../data/contacts';
 import { navigation } from '../data/navigation';
 import { useActiveSection } from '../hooks/useActiveSection';
@@ -37,9 +38,7 @@ export function SiteHeader() {
     <header className={styles.header} data-scrolled={scrolled}>
       <div className={`container-wide ${styles.bar}`}>
         <a href="#top" className={styles.brand} aria-label={t.header.home}>
-          <span className={styles.monogram} aria-hidden="true">
-            {profile.monogram}
-          </span>
+          <img className={styles.monogram} src={neutralFace} alt="" width={40} height={40} aria-hidden="true" />
           <span className={styles.brandName} aria-hidden="true">
             {profile.name}
           </span>
