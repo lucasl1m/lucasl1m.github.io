@@ -1,0 +1,198 @@
+.sim {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  overflow: hidden;
+  border: 1px solid var(--color-stage-line);
+  border-radius: var(--radius-sm);
+  background:
+    linear-gradient(var(--color-stage-line) 1px, transparent 1px) 0 0 / 24px 24px,
+    linear-gradient(90deg, var(--color-stage-line) 1px, transparent 1px) 0 0 / 24px 24px,
+    var(--color-stage-raised);
+}
+
+.title {
+  color: var(--color-stage-ink);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.methods {
+  display: inline-flex;
+  justify-self: start;
+  margin: 0;
+  padding: 3px;
+  border: 1px solid var(--color-stage-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-stage);
+}
+
+.method {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-xs);
+  color: var(--color-stage-muted);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.method input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  cursor: pointer;
+}
+
+.method:has(input:checked) {
+  background: var(--color-stage-accent);
+  color: var(--color-stage);
+}
+
+.method:has(input:focus-visible) {
+  outline: 3px solid var(--color-stage-accent);
+  outline-offset: 2px;
+}
+
+.journey {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin: 0;
+  padding: var(--space-4) 0;
+  list-style: none;
+}
+
+.step {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  min-height: 7.5rem;
+  padding: var(--space-3);
+  border: 1px solid var(--color-stage-line);
+  border-radius: var(--radius-xs);
+  background: var(--color-stage);
+  color: var(--color-stage-muted);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  opacity: 0.58;
+  animation: activate-step 5s var(--ease-out) var(--step-delay) infinite;
+}
+
+.step:not(:last-child)::after {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: calc(var(--space-3) * -1 - 1px);
+  width: var(--space-3);
+  height: 2px;
+  background: var(--color-stage-accent);
+  content: '';
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: left;
+  animation: connect-step 5s linear var(--step-delay) infinite;
+}
+
+.marker {
+  color: var(--color-stage-accent);
+  font-size: var(--text-xs);
+  letter-spacing: 0.12em;
+}
+
+.summary {
+  color: var(--color-stage-ink);
+  font-weight: 700;
+}
+
+.caption {
+  color: var(--color-stage-muted);
+  font-size: var(--text-sm);
+}
+
+@keyframes activate-step {
+  0%,
+  15% {
+    border-color: var(--color-stage-accent);
+    box-shadow: inset 0 0 0 1px var(--color-stage-accent);
+    color: var(--color-stage-ink);
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+
+  25%,
+  100% {
+    border-color: var(--color-stage-line);
+    box-shadow: none;
+    color: var(--color-stage-muted);
+    opacity: 0.58;
+    transform: none;
+  }
+}
+
+@keyframes connect-step {
+  0%,
+  8% {
+    transform: translateY(-50%) scaleX(0);
+  }
+
+  18%,
+  100% {
+    transform: translateY(-50%) scaleX(1);
+  }
+}
+
+@media (max-width: 760px) {
+  .journey {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    min-height: auto;
+  }
+
+  .step:not(:last-child)::after {
+    top: auto;
+    right: 50%;
+    bottom: calc(var(--space-3) * -1 - 1px);
+    width: 2px;
+    height: var(--space-3);
+    transform: translateX(50%) scaleY(0);
+    transform-origin: top;
+    animation-name: connect-step-vertical;
+  }
+}
+
+@keyframes connect-step-vertical {
+  0%,
+  8% {
+    transform: translateX(50%) scaleY(0);
+  }
+
+  18%,
+  100% {
+    transform: translateX(50%) scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .step {
+    color: var(--color-stage-ink);
+    opacity: 1;
+    animation: none;
+  }
+
+  .step:not(:last-child)::after {
+    transform: translateY(-50%) scaleX(1);
+    animation: none;
+  }
+}
+
+@media (max-width: 760px) and (prefers-reduced-motion: reduce) {
+  .step:not(:last-child)::after {
+    transform: translateX(50%) scaleY(1);
+  }
+}

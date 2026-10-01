@@ -1,0 +1,141 @@
+export const ptBR = {
+  meta: {
+    title: 'Lucas Araújo de Lima · Desenvolvedor Frontend/Mobile',
+    description: 'Portfólio de Lucas Araújo de Lima, desenvolvedor frontend e mobile com experiência em React, Next.js, Angular, React Native e TypeScript.',
+  },
+  common: { until: 'até', present: 'atual', newTab: '(abre em nova aba)', close: 'Fechar', loading: 'Carregando…' },
+  skipLink: 'Pular para o conteúdo',
+  header: {
+    home: 'Lucas Araújo de Lima, voltar ao início', navLabel: 'Navegação principal', menuOpen: 'Abrir menu', menuClose: 'Fechar menu',
+    nav: { about: 'Sobre', projects: 'Projetos', experience: 'Experiência', skills: 'Tecnologias', education: 'Formação', contact: 'Contato' },
+    language: { label: 'Idioma', pt: 'Português', en: 'English' },
+    theme: { toDark: 'Ativar tema escuro', toLight: 'Ativar tema claro' },
+  },
+  hero: {
+    eyebrow: 'Desenvolvedor Frontend/Mobile · Produto e engenharia',
+    lead: 'Construo interfaces escaláveis, acessíveis e de alta performance com React, Next.js, Angular, React Native e TypeScript.',
+    body: 'Hoje atuo na Lifters Tecnologia com frontend em React e TypeScript, contribuindo também para a estruturação de backoffice e APIs. Minha trajetória em Product Design me ajuda a conectar produto, experiência e implementação.',
+    facts: [
+      { label: 'Agora', value: 'Desenvolvedor Frontend/Mobile na Lifters Tecnologia' },
+      { label: 'Formação', value: 'Ciência da Computação pela UFCG' },
+      { label: 'Stack principal', value: 'React · Next.js · Angular · React Native · TypeScript' },
+    ],
+    factsLabel: 'Resumo profissional', ctaProjects: 'Ver projetos',
+    spriteAlt: 'Lucas em pixel art, com cabelo escuro, barba e roupa casual.',
+  },
+  cv: {
+    download: 'Baixar currículo', preview: 'Pré-visualizar currículo', modalTitle: 'Currículo em português',
+    previewAlt: 'Primeira página do currículo de Lucas Araújo de Lima.', downloadPdf: 'Baixar PDF', openPdf: 'Abrir PDF em nova aba',
+  },
+  about: {
+    kicker: 'Sobre', title: 'Transformo problemas de produto em interfaces que permanecem fáceis de evoluir.',
+    paragraphs: [
+      'Sou Desenvolvedor Frontend/Mobile e bacharel em Ciência da Computação pela UFCG. Trabalho com React, Next.js, Angular, React Native e TypeScript, com atenção especial a acessibilidade, performance e arquitetura.',
+      'Comecei profissionalmente como Product Designer na Educbank. Essa experiência me ensinou a traduzir regras financeiras complexas em jornadas compreensíveis e a colaborar com engenharia por meio de design systems e componentes bem definidos.',
+      'Depois, na Beeteller e na Blockfy, desenvolvi produtos financeiros de escala, fluxos de checkout, dashboards e integrações com APIs. Hoje, na Lifters Tecnologia, aplico essa base a plataformas digitais e interfaces orientadas a produto.',
+    ],
+    photoAlt: 'Foto de Lucas Araújo de Lima usando blazer azul sobre uma camisa clara, em frente a um fundo cinza.', photoCaption: 'Lucas Araújo de Lima',
+    facts: [
+      { label: 'Base', value: 'João Pessoa, Paraíba' },
+      { label: 'Idiomas', value: 'Português nativo e inglês básico' },
+    ],
+  },
+  projects: {
+    kicker: 'Projetos', title: 'Três projetos, três tipos de impacto.',
+    intro: 'Pagamentos públicos em escala, leitura inteligente de documentos jurídicos e uma experiência de feedback de código com IA.',
+    indexLabel: 'Índice de projetos',
+    labels: { need: 'O problema', features: 'O que foi entregue', role: 'Minha participação', stack: 'Tecnologias', decisions: 'Decisões técnicas', visit: 'Visitar o site', repo: 'Código no GitHub', gallery: 'Capturas de tela', expand: 'Ampliar imagem: {alt}' },
+    pagoParcelado: {
+      kicker: 'Beeteller · produto financeiro', tagline: 'Pagamentos governamentais com Pix, cartão e segurança 3DS.',
+      need: 'Simplificar o pagamento de tributos, GRUs e guias judiciais, conectando órgãos públicos, PagTesouro e diferentes meios de pagamento numa jornada clara.',
+      features: ['Pagamento com Pix ou cartão para diferentes tipos de arrecadação.', 'Fluxos de GRU e guias judiciais integrados ao PagTesouro.', 'Autenticação 3DS para pagamentos com cartão.', '+300 mil transações e +R$ 72 milhões movimentados nos primeiros 30 dias do período da integração.'],
+      role: 'Contribuí no frontend em Angular, criando e evoluindo jornadas de pagamento, formulários, validações, internacionalização e integrações.',
+      decisions: [
+        { title: 'Fluxos guiados por contexto', body: 'A interface organiza dados do órgão, documento e pagamento em etapas legíveis, com validação antes de avançar.' },
+        { title: 'Estado reativo', body: 'RxJS coordena mudanças entre formulários, meios de pagamento e respostas das integrações.' },
+        { title: 'Segurança sem esconder a jornada', body: 'O fluxo 3DS adiciona autenticação ao cartão mantendo estados de carregamento, retorno e erro compreensíveis.' },
+      ],
+      moreTitle: 'Mais detalhes', more: ['Componentes reaproveitáveis para formulários e feedback.', 'Textos preparados para internacionalização.', 'Validações com Yup e componentes de Angular Material.'],
+      sim: {
+        title: 'Caminho do pagamento', methodLabel: 'Meio de pagamento', pix: 'Pix', card: 'Cartão + 3DS',
+        pixJourneyLabel: 'Etapas do pagamento Pix', cardJourneyLabel: 'Etapas do pagamento com cartão e 3DS',
+        pixSteps: ['Escolha Pix', 'Gerar cobrança', 'QR Code ou copia e cola', 'Banco processa', 'Pagamento confirmado'],
+        cardSteps: ['Dados do cartão', 'Checagem 3DS', 'Desafio do emissor', 'Autorização', 'Pagamento confirmado'],
+        pixSummary: 'O Pix segue da geração da cobrança até a confirmação do pagamento.',
+        cardSummary: 'O cartão passa pela autenticação 3DS antes da autorização e da confirmação.',
+        pixCaption: 'A pessoa recebe o QR Code ou código copia e cola, paga pelo banco e retorna ao fluxo com o status confirmado.',
+        cardCaption: 'Quando exigido, o emissor apresenta o desafio 3DS; após a autenticação, a transação segue para autorização.',
+      },
+    },
+    harpia: {
+      kicker: 'Blockfy · 2025–2026', tagline: 'Documentos jurídicos extensos transformados em uma experiência de leitura e análise.',
+      need: 'Permitir que profissionais jurídicos trabalhem com documentos de até 3.000 páginas sem perder contexto, clareza ou velocidade na interface.',
+      features: ['Upload e processamento de documentos extensos.', 'Componentes reutilizáveis para navegação, leitura e análise.', 'Integração com APIs REST e estados previsíveis de carregamento e erro.', 'SSR, Server Components, testes automatizados e CI/CD.'],
+      role: 'Atuei no frontend com React e Next.js, implementando componentes, layouts complexos, integrações, testes e decisões de arquitetura.',
+      decisions: [
+        { title: 'Renderização adequada a cada tela', body: 'SSR e Server Components reduzem trabalho no cliente quando a interface se beneficia de dados preparados no servidor.' },
+        { title: 'Componentes para evolução contínua', body: 'Padrões reutilizáveis mantêm consistência entre fluxos densos e diminuem o custo de novas funcionalidades.' },
+        { title: 'Qualidade no fluxo de entrega', body: 'Testes, lint e CI/CD protegem comportamentos importantes antes da publicação.' },
+      ],
+      annotationsTitle: 'Pontos da experiência', annotations: ['Leitura focada.', 'Ações contextuais.', 'Navegação por seções.'], dataNote: 'As imagens exibidas são apenas de páginas públicas.',
+    },
+    devroast: {
+      kicker: 'Projeto público · NLW', tagline: 'Feedback de código com IA, pontuação e resultados compartilháveis.',
+      need: 'Transformar uma submissão de código em feedback estruturado, fácil de comparar e simples de compartilhar.',
+      features: ['Análise detalhada de código com apoio de IA.', 'Pontuação e ranking entre participantes.', 'Resultado organizado por critérios e pontos de melhoria.', 'Página compartilhável para cada análise.'],
+      role: 'Projeto pessoal desenvolvido durante a NLW, com frontend, rotas tipadas, persistência e integração da experiência de análise.',
+      decisions: [
+        { title: 'Contrato tipado de ponta a ponta', body: 'tRPC e TypeScript mantêm os dados de submissão e resultado alinhados entre interface e servidor.' },
+        { title: 'Persistência explícita', body: 'PostgreSQL e Drizzle ORM modelam análises, notas e ranking com consultas previsíveis.' },
+        { title: 'Resultado feito para circular', body: 'A interface organiza score, diagnóstico e recomendações numa página que pode ser compartilhada.' },
+      ],
+      tour: { play: 'Reproduzir demonstração', pause: 'Pausar demonstração', posterAlt: 'Tela pública do DevRoast com avaliação de código.', animationAlt: 'Demonstração da jornada do DevRoast.', caption: 'Demonstração do projeto publicado.' },
+      demo: {
+        title: 'Adivinhe a tecnologia', disclaimer: 'Uma interação curta inspirada em comparações de stack.', inputLabel: 'Seu palpite', placeholder: 'Digite uma tecnologia', submit: 'Chutar', newRound: 'Nova rodada', reveal: 'Mostrar resposta', attempts: 'Tentativas: {count}', empty: 'Sem palpites ainda. Escolha uma tecnologia para começar.',
+        columns: { name: 'Tecnologia', area: 'Área', kind: 'Tipo', usedIn: 'Onde usei', released: 'Lançamento' }, result: { correct: 'certo', partial: 'parcialmente certo', wrong: 'errado', higher: 'a resposta é mais recente', lower: 'a resposta é mais antiga' }, won: 'Acertou em {count} tentativas: era {name}.', wonFirst: 'Acertou de primeira: era {name}.', revealed: 'A resposta era {name}.', noUsage: 'Experiência geral', emotes: { neutral: 'Personagem esperando o palpite.', excited: 'Personagem comemorando o acerto.', confused: 'Personagem confuso: alguns atributos batem.', angry: 'Personagem contrariado: nenhum atributo bate.' },
+      },
+    },
+    shots: {} as Record<string, { alt: string; caption: string }>,
+  },
+  experience: {
+    kicker: 'Experiência', title: 'Uma trajetória entre produto, web e mobile.', ladderLabel: 'Progressão profissional',
+    lanes: { main: 'Engenharia', parallel: 'Origem em produto' },
+    roles: { frontendDeveloper: 'Desenvolvedor Frontend/Mobile', productDesigner: 'Product Designer' },
+    ladder: { productDesigner: 'Product Design', frontendDeveloper: 'Frontend', frontendMobileDeveloper: 'Frontend/Mobile' },
+    stackLabel: 'Stack', highlightsLabel: 'Destaques',
+    entries: {
+      lifters: { summary: 'Interfaces em React e TypeScript para uma plataforma digital e participação na estruturação inicial de backoffice e APIs.', highlights: ['Frontend web com React e TypeScript.', 'Estruturação de backoffice e integrações com APIs.', 'Colaboração entre produto e engenharia.'] },
+      blockfy: { summary: 'Frontend da Harpia AI com React e Next.js, componentes reutilizáveis, layouts complexos, integração com APIs REST, SSR, Server Components, testes e decisões de arquitetura.', highlights: ['Componentização e layouts responsivos.', 'Testes com Cypress e Jest.', 'Participação em arquitetura e CI/CD.'] },
+      beeteller: { summary: 'Aplicações web e mobile para produtos financeiros, incluindo Pago Parcelado, Pix Internacional, 3DS, KYC/Onboarding, Payin, Payout e Core Banking.', highlights: ['Produtos financeiros web e mobile.', 'Angular, React, React Native e Next.js.', 'Integrações, formulários e internacionalização.'] },
+      educbank: { summary: 'Design System, Style Guide e interfaces para garantia de mensalidades, fluxo de caixa escolar e dashboards financeiros usados por mais de 500 escolas.', highlights: ['Design System e Style Guide.', 'Jornadas financeiras traduzidas em interfaces.', 'Colaboração próxima com engenharia.'] },
+    },
+  },
+  skills: {
+    kicker: 'Tecnologias', title: 'O que uso, e onde usei.', intro: 'Tecnologias organizadas por área e conectadas às experiências e aos projetos em que aparecem.', filterLabel: 'Destacar tecnologias por contexto', all: 'Tudo', core: 'Principal', general: 'Experiência geral', usedInLabel: 'Usado em', matchLabel: 'Usado em {context}',
+    areas: { frontend: 'Frontend web', mobile: 'Mobile', stateData: 'Estado e dados', uiProduct: 'UI e produto', quality: 'Qualidade', delivery: 'Entrega' },
+    names: { rest: 'APIs REST', htmlcss: 'HTML5 e CSS3', git: 'Git e GitHub', codeReview: 'Revisão de código' } as Record<string, string>, notes: {} as Record<string, string>,
+    kinds: { language: 'Linguagem', platform: 'Plataforma', framework: 'Framework', library: 'Biblioteca', database: 'Banco de dados', tool: 'Ferramenta', standard: 'Padrão web' },
+    contexts: { lifters: 'Lifters', blockfy: 'Blockfy', beeteller: 'Beeteller', educbank: 'Educbank', pagoParcelado: 'Pago Parcelado', harpia: 'Harpia AI', devroast: 'DevRoast' },
+  },
+  education: {
+    kicker: 'Formação', title: 'Formação acadêmica e aprendizado contínuo.', groups: { academic: 'Formação acadêmica', complementary: 'Certificações e cursos' }, kinds: { degree: 'Graduação', technical: 'Ensino técnico', course: 'Curso', training: 'Imersão' }, expected: 'previsão',
+    items: {
+      ufcg: { title: 'Bacharelado em Ciência da Computação', note: 'Concluído com coeficiente acadêmico 8,85.' }, rocketseatState: { title: 'Gerenciamento de estado no React', note: 'Rocketseat.' }, rocketseatAccessibility: { title: 'Acessibilidade em aplicações React', note: 'Rocketseat.' }, rocketseatReact: { title: 'React', note: 'Rocketseat.' }, nlwOperator: { title: 'NLW Operator', note: 'Rocketseat.' }, datadogRum: { title: 'Real User Monitoring', note: 'Datadog.' }, scrumFundamentals: { title: 'Scrum Fundamentals Certified', note: 'SCRUMstudy.' },
+    },
+    languagesTitle: 'Idiomas', languages: { pt: { name: 'Português', level: 'Nativo/bilíngue' }, en: { name: 'Inglês', level: 'Básico' } },
+  },
+  beyond: {
+    kicker: 'Além do código', title: 'Produto, design e código.', paragraphs: ['Minha trajetória começou em Product Design e continua influenciando como penso arquitetura de interface, acessibilidade e experiência.', 'Também participei de iniciativas como OpenDevUFCG e DadosJusBr e conquistei o primeiro lugar no hackathon Tidex, experiências que reforçaram colaboração e aprendizado em comunidade.'], bustAlt: 'Lucas em pixel art.', emotesLabel: 'Reações do personagem', emotes: { neutral: 'Neutro', excited: 'Animado', confused: 'Confuso', angry: 'Bravo' }, emoteSelected: 'Reação escolhida: {name}.',
+  },
+  contact: {
+    kicker: 'Contato', title: 'Vamos conversar sobre produto e engenharia?', body: 'Estou aberto a conversas sobre frontend, mobile, produto e engenharia. E-mail é o caminho mais direto; também estou no LinkedIn e no GitHub.', emailLabel: 'E-mail', copy: 'Copiar e-mail', send: 'Escrever um e-mail', copied: 'E-mail copiado.', copyFailed: 'Não foi possível copiar. O endereço é {email}.', phone: 'Telefone', linkedin: 'LinkedIn', github: 'GitHub', cv: 'Currículo', linksLabel: 'Outras formas de contato',
+  },
+  footer: { rights: '© {year} Lucas Araújo de Lima', source: 'Código deste site no GitHub', backToTop: 'Voltar ao topo' },
+  buddy: {
+    label: 'Mini Lucas. Clique para descobrir uma curiosidade; arraste para mudar de lugar.', intro: 'Oi! Clique nos termos destacados para ver como eles aparecem na minha trajetória.', close: 'Fechar balão', comeBack: 'Chamar o Lucas de volta', askSuffix: '(perguntar ao Lucas)', tooltip: 'Perguntar?',
+    lines: { ufcg: 'A UFCG foi a base acadêmica da minha trajetória.', product: 'Comecei em Product Design antes de me especializar em frontend.', accessibility: 'Acessibilidade é parte da qualidade, não um detalhe final.', tidex: 'Minha equipe ficou em primeiro lugar no hackathon Tidex.', community: 'OpenDevUFCG e DadosJusBr fizeram parte da minha experiência em comunidade.', tests: 'Testes e CI/CD tornam mudanças mais seguras.', throwMe: 'Dá para me arrastar. Se me jogar rápido, eu saio voando!' },
+    titles: { productDesigner: 'Product Design', frontendDeveloper: 'Frontend', frontendMobileDeveloper: 'Frontend/Mobile' } as Record<string, string>,
+    terms: { react: 'Uso React em produtos profissionais e projetos públicos.', angular: 'Angular esteve no centro de jornadas financeiras como Pago Parcelado.', reactNative: 'React Native levou produtos financeiros para o mobile.', accessibility: 'Busco incorporar acessibilidade desde a estrutura dos componentes.', pagoParcelado: 'Contribuí para jornadas de pagamento governamental em escala.', harpia: 'Na Harpia AI, trabalhei com documentos jurídicos extensos e interfaces complexas.', devroast: 'DevRoast é um projeto público de feedback de código com IA.' } as Record<string, string>,
+  },
+  viewer: { label: 'Visualizador de imagens', close: 'Fechar visualizador', previous: 'Imagem anterior', next: 'Próxima imagem', zoomIn: 'Aproximar', zoomOut: 'Afastar', reset: 'Tamanho original', counter: 'Imagem {current} de {total}' },
+};
