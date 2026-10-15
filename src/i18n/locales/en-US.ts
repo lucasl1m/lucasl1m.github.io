@@ -18,7 +18,7 @@ export const enUS: Messages = {
   hero: {
     eyebrow: 'Frontend/Mobile Developer · Product and engineering',
     lead: 'I build scalable, accessible, high-performance interfaces with React, Next.js, Angular, React Native, and TypeScript.',
-    body: 'I currently work at Lifters Tecnologia with React and TypeScript frontend development, also contributing to backoffice and API foundations. My Product Design background helps me connect product, experience, and implementation.',
+    body: 'I currently work at Lifters Tecnologia with React and TypeScript frontend development, and helping structure the backoffice and API, including the multi-tenancy layer in Node.js, NestJS, and PostgreSQL. My Product Design background helps me connect product, experience, and implementation.',
     facts: [
       { label: 'Now', value: 'Frontend/Mobile Developer at Lifters Tecnologia' },
       { label: 'Education', value: 'Computer Science at UFCG' },
@@ -36,7 +36,7 @@ export const enUS: Messages = {
     paragraphs: [
       'I am a Frontend/Mobile Developer with a Computer Science degree from UFCG. I work with React, Next.js, Angular, React Native, and TypeScript, with special attention to accessibility, performance, and architecture.',
       'I started my professional career as a Product Designer at Educbank. That experience taught me to translate complex financial rules into understandable journeys and collaborate with engineering through design systems and well-defined components.',
-      'Later, at Beeteller and Blockfy, I built financial products at scale, checkout flows, dashboards, and API integrations. Today, at Lifters Tecnologia, I apply that background to digital platforms and product-oriented interfaces.',
+      'Later, at Beeteller and Blockfy, I built financial products at scale, checkout flows, dashboards, and API integrations. Today, at Lifters Tecnologia, I apply that background to digital platforms, product-oriented interfaces, and the structure of the backoffice and API.',
     ],
     photoAlt: 'Photo of Lucas Araújo de Lima wearing a blue blazer over a light shirt against a gray background.', photoCaption: 'Lucas Araújo de Lima',
     facts: [
@@ -111,7 +111,7 @@ export const enUS: Messages = {
     ladder: { productDesigner: 'Product Design', frontendDeveloper: 'Frontend', frontendMobileDeveloper: 'Frontend/Mobile' },
     stackLabel: 'Stack', highlightsLabel: 'Highlights',
     entries: {
-      lifters: { summary: 'React and TypeScript interfaces for a digital platform, plus contributions to the initial structure of a backoffice and APIs.', highlights: ['Web frontend with React and TypeScript.', 'Backoffice foundations and API integrations.', 'Collaboration across product and engineering.'] },
+      lifters: { summary: 'React and TypeScript interfaces for a digital platform, with standardized components aligned to the design system, plus the structure of the backoffice, API, and monorepo infrastructure.', highlights: ['Reusable React and TypeScript components aligned to the design system.', 'API multi-tenancy (Node.js, NestJS, PostgreSQL) with data isolation between clients.', 'Backoffice, API, and monorepo infrastructure setup, code reviews, and architecture decisions.'] },
       blockfy: { summary: 'Harpia AI frontend with React and Next.js, reusable components, complex layouts, REST API integration, SSR, Server Components, tests, and architecture decisions.', highlights: ['Component architecture and responsive layouts.', 'Tests with Cypress and Jest.', 'Contributions to architecture and CI/CD.'] },
       beeteller: { summary: 'Web and mobile applications for financial products, including Pago Parcelado, International Pix, 3DS, KYC/Onboarding, Payin, Payout, and Core Banking.', highlights: ['Web and mobile financial products.', 'Angular, React, React Native, and Next.js.', 'Integrations, forms, and internationalization.'] },
       educbank: { summary: 'Design System, Style Guide, and interfaces for tuition guarantees, school cash flow, and financial dashboards used by more than 500 schools.', highlights: ['Design System and Style Guide.', 'Financial journeys translated into interfaces.', 'Close collaboration with engineering.'] },
