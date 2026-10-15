@@ -25,7 +25,7 @@ export const experience: Experience[] = [
     company: 'Lifters Tecnologia',
     lane: 'main',
     roles: [{ id: 'frontendDeveloper', start: '2026-09' }],
-    stack: ['React', 'TypeScript'],
+    stack: ['React', 'TypeScript', 'Node.js', 'NestJS', 'PostgreSQL'],
   },
   {
     id: 'blockfy',

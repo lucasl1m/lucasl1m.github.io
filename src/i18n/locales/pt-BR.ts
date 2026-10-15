@@ -14,7 +14,7 @@ export const ptBR = {
   hero: {
     eyebrow: 'Desenvolvedor Frontend/Mobile · Produto e engenharia',
     lead: 'Construo interfaces escaláveis, acessíveis e de alta performance com React, Next.js, Angular, React Native e TypeScript.',
-    body: 'Hoje atuo na Lifters Tecnologia com frontend em React e TypeScript, contribuindo também para a estruturação de backoffice e APIs. Minha trajetória em Product Design me ajuda a conectar produto, experiência e implementação.',
+    body: 'Hoje atuo na Lifters Tecnologia com frontend em React e TypeScript, e contribuo com a estruturação do backoffice e da API, incluindo a camada de multi-tenancy em Node.js, NestJS e PostgreSQL. Minha trajetória em Product Design me ajuda a conectar produto, experiência e implementação.',
     facts: [
       { label: 'Agora', value: 'Desenvolvedor Frontend/Mobile na Lifters Tecnologia' },
       { label: 'Formação', value: 'Ciência da Computação pela UFCG' },
@@ -32,7 +32,7 @@ export const ptBR = {
     paragraphs: [
       'Sou Desenvolvedor Frontend/Mobile e bacharel em Ciência da Computação pela UFCG. Trabalho com React, Next.js, Angular, React Native e TypeScript, com atenção especial a acessibilidade, performance e arquitetura.',
       'Comecei profissionalmente como Product Designer na Educbank. Essa experiência me ensinou a traduzir regras financeiras complexas em jornadas compreensíveis e a colaborar com engenharia por meio de design systems e componentes bem definidos.',
-      'Depois, na Beeteller e na Blockfy, desenvolvi produtos financeiros de escala, fluxos de checkout, dashboards e integrações com APIs. Hoje, na Lifters Tecnologia, aplico essa base a plataformas digitais e interfaces orientadas a produto.',
+      'Depois, na Beeteller e na Blockfy, desenvolvi produtos financeiros de escala, fluxos de checkout, dashboards e integrações com APIs. Hoje, na Lifters Tecnologia, aplico essa base a plataformas digitais, interfaces orientadas a produto e à estruturação de backoffice e API.',
     ],
     photoAlt: 'Foto de Lucas Araújo de Lima usando blazer azul sobre uma camisa clara, em frente a um fundo cinza.', photoCaption: 'Lucas Araújo de Lima',
     facts: [
@@ -104,7 +104,7 @@ export const ptBR = {
     ladder: { productDesigner: 'Product Design', frontendDeveloper: 'Frontend', frontendMobileDeveloper: 'Frontend/Mobile' },
     stackLabel: 'Stack', highlightsLabel: 'Destaques',
     entries: {
-      lifters: { summary: 'Interfaces em React e TypeScript para uma plataforma digital e participação na estruturação inicial de backoffice e APIs.', highlights: ['Frontend web com React e TypeScript.', 'Estruturação de backoffice e integrações com APIs.', 'Colaboração entre produto e engenharia.'] },
+      lifters: { summary: 'Interfaces em React e TypeScript para uma plataforma digital, com componentes padronizados alinhados ao design system, e estruturação do backoffice, da API e da infraestrutura em monorepo.', highlights: ['Componentes reutilizáveis em React e TypeScript, alinhados ao design system.', 'Multi-tenancy na API (Node.js, NestJS, PostgreSQL), com isolamento de dados entre clientes.', 'Setup de backoffice, API e infraestrutura em monorepo, code reviews e decisões de arquitetura.'] },
       blockfy: { summary: 'Frontend da Harpia AI com React e Next.js, componentes reutilizáveis, layouts complexos, integração com APIs REST, SSR, Server Components, testes e decisões de arquitetura.', highlights: ['Componentização e layouts responsivos.', 'Testes com Cypress e Jest.', 'Participação em arquitetura e CI/CD.'] },
       beeteller: { summary: 'Aplicações web e mobile para produtos financeiros, incluindo Pago Parcelado, Pix Internacional, 3DS, KYC/Onboarding, Payin, Payout e Core Banking.', highlights: ['Produtos financeiros web e mobile.', 'Angular, React, React Native e Next.js.', 'Integrações, formulários e internacionalização.'] },
       educbank: { summary: 'Design System, Style Guide e interfaces para garantia de mensalidades, fluxo de caixa escolar e dashboards financeiros usados por mais de 500 escolas.', highlights: ['Design System e Style Guide.', 'Jornadas financeiras traduzidas em interfaces.', 'Colaboração próxima com engenharia.'] },

@@ -41,13 +41,13 @@ export const resumes: Record<Locale, Resume> = {
     fileName: 'Lucas_Lima.pdf',
     preview: cvPreviewPt,
     previewWidth: 1445,
-    previewHeight: 1871,
+    previewHeight: 1870,
   },
   'en-US': {
     href: resumeFile('Lucas_Lima_EN.pdf'),
     fileName: 'Lucas_Lima_EN.pdf',
     preview: cvPreviewEn,
     previewWidth: 1445,
-    previewHeight: 1871,
+    previewHeight: 1870,
   },
 };
